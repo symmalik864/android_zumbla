@@ -58,7 +58,7 @@
         android:id="@+id/main"
         android:orientation="vertical">
 
-        <com.game.UtilsAwv
+        <com.zumblabubbleshooter.UtilsAwv
             android:id="@+id/myWebView"
             android:layout_width="match_parent"
             android:layout_height="0dp"

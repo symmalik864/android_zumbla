@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.game">
+    package="com.zumblabubbleshooter">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -18,20 +18,20 @@
         <meta-data android:name="main_id" android:value="91" />
         <activity
             android:exported="true"
-            android:name="com.game.MainActivity"
+            android:name="com.zumblabubbleshooter.MainActivity"
             android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.game.PrivacyActivity"/>
+        <activity android:name="com.zumblabubbleshooter.PrivacyActivity"/>
 
         <meta-data
             android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT"
             android:value="true"/>
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-9777034540867573~9744938716" />
+            android:value="ca-app-pub-3940256099942544~3347511713" />
     </application>
 </manifest>
